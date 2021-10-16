@@ -5,3 +5,11 @@ git clone link-repo
 git add *
 git commit -m
 git push
+
+git branch
+git branch -a
+
+git fetch  - sprawdzenmie online
+git checkout -b second origin/second  - pobranie nowego brancha
+git checkout main - przełaczenie miedzy branchem
+git push origin next_branch - wysłanie lokalnego brancha do weba
