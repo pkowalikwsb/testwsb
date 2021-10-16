@@ -1,0 +1,6 @@
+
+git config --global user.name "Paweł WSB"
+git config --global user.email ""
+git clone https://github.com/pkowalikwsb/testwsb.git
+git add *
+git commit -m
