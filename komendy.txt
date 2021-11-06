@@ -9,7 +9,28 @@ git push
 git branch
 git branch -a
 
+git log
+
 git fetch  - sprawdzenmie online
 git checkout -b second origin/second  - pobranie nowego brancha
 git checkout main - przełaczenie miedzy branchem
 git push origin next_branch - wysłanie lokalnego brancha do weba
+
+
+git tag nazwa - 
+git tag -a nazwa -m 'nazwa'
+
+git tag - lista tagów
+git tag -l nazwa* - szuka tagów z nazwa*
+
+git show nazwa - pokazanie tagu
+
+git push origin nazwa - push z tagiem "nazwa" 
+git push origin --tags - wysyłanie wszystkich tagów
+
+git chaeckout -b version2 v2.0.0 - utworzenie branch plikiem z tagiem
+
+git log --pretty=online - lista commitów
+git tag -a v1.2 9fceb02 -dodanie tagu v1.2 do commita (9fceb02 - przykładowy comit z git log)
+
+
