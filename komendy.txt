@@ -33,6 +33,21 @@ git chaeckout -b version2 v2.0.0 - utworzenie branch plikiem z tagiem
 git log --pretty=online - lista commitów
 git tag -a v1.2 9fceb02 -dodanie tagu v1.2 do commita (9fceb02 - przykładowy comit z git log)
 
+git merge --no--ff myfeature - to co pull request na web
+
+git stash - skrytka lokalna
+git stash push -m "message" - dodaje wiadomość
+git stash list
+git stash apply - użyć schowka
+git stash show - wyswietla schowek
+git stash pop - wyciga z schowka i usuwa z niego
+git stash drop - kasowanie schowka
+git stash clear - czyśći schowek
+git stash branch - tworzy branch
+
+
+
+
 
 
 
