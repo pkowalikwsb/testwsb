@@ -46,7 +46,8 @@ git stash clear - czyśći schowek
 git stash branch - tworzy branch
 
 
-
+git switch
+git restore
 
 
 
