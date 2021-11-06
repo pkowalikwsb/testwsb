@@ -41,7 +41,7 @@ git stash list
 git stash apply - użyć schowka
 git stash show - wyswietla schowek
 git stash pop - wyciga z schowka i usuwa z niego
-git stash drop - kasowanie schowka
+git stash drop 2 - kasowanie schowka
 git stash clear - czyśći schowek
 git stash branch - tworzy branch
 
